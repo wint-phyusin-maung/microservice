@@ -19,3 +19,6 @@ fanout(sent messages to all queue)
 
 readers
 
+
+ts-node is used to run the TypeScript file (src/index.ts) directly without explicitly transpiling it to JavaScript.
+@types/node TypeScript has the necessary type information for Node.js
