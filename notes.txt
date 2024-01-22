@@ -1,0 +1,21 @@
+RabbitMQ(messaging broker)
+a tool that allow microservies 
+to communicate asynchronously 
+with a variety of different protocols
+
+producer ..........RabbitMQ.......... receiver
+
+exchange types 
+
+direct 
+the system needs to communicate with three other different systems to make the purchase
+binding key (exchange .... connector ....  queue)
+routing key (a key to forwarding our messages to a specific queue)
+
+
+topic (sent messages according to subject)
+
+fanout(sent messages to all queue)
+
+readers
+
